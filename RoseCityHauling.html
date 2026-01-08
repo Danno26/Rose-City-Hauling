@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rose City Hauling</title>
+        <link rel="stylesheet" href="./RCHstyle.css">
+        <script src="RCHJavascript.js"></script>
+        </head>
+        <body>
+ <header>
+<nav class="navbar">
+     
+<!-- NAVBAR WITH PHONE CALL AND SOCIAL MEDIA LINKS -->
+<ul class="sidebar">
+           <li onclick=hideSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+           <li class="mobi"><a class="mobileMenu" href="#main">Home</a></li>
+           <li class="mobi"><a class="mobileMenu" href="#services">Services</a></li>
+           <li class="mobi"><a class="mobileMenu" href="#about-us">About</a></li>
+           <li class="mobi"><a class="mobileMenu" href="#questions">Contact Us</a></li>
+           <li class="mobi"><a class="mobileMenu" href="tel:+16266609863" ><button class="btn btn-secondary">626-660-9863</button></a></li>
+    </ul>
+
+
+    <ul class="nav-list">
+       <a class="nav-logo nav-item" href="https://www.instagram.com/rosecityhaulingllc?igsh=MzRlODBiNWFlZA==">
+            <li><img class="socialmeda" src="./RCHImages/Insta-Icon-navbar1.jpg" alt="" ></li>
+        </a>
+    <a class="nav-logo nav-item" href="https://www.tiktok.com/@rosecityhaulingllc?_r=1&_t=ZP-925fiwcoYxz">
+        <li><img class="socialmeda" src="./RCHImages/Tiktok-Icon-navbar2.jpg" alt=""></li>
+    </a>
+    <img class="nav-logo" src="./RCHImages/logo1.PNG" alt=""></a>
+
+           <li class="hideOnMobile"><a class="nav-item" href="#main">Home</a></li>
+           <li class="hideOnMobile"><a class="nav-item" href="#services">Services</a></li>
+           <li class="hideOnMobile"><a class="nav-item" href="#about-us">About</a></li>
+           <li class="hideOnMobile"><a class="nav-item" href="#questions">Contact Us</a></li>
+           <li class="hideOnMobile"><a class="nav-item" href="tel:+16266609863" ><button class="hideOnMobile btn btn-secondary">626-660-9863</button></a></li>
+           <li class="mobile-btn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+    
+    <img src="./RCHImages/MenuButton1.png" alt="" class="hideOnMobile menu-btn">
+</nav>
+
+<script>
+    function showSidebar(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex';
+}
+function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none';
+}
+</script>
+
+</header>
+
+<!-- JUMBOTRON SECTION -->
+
+<div id="main">
+<div class="container">
+<div class="main-content">
+    <h1 class="intro-heading">Hauling, Moving, Junk Removal and Demolition
+</h1>
+<h1 class="main-heading">🚛Rose City Hauling</h1>
+<p> We service the greater 
+<br>Los Angeles County area</br> 
+for any of your hauling needs.</p>
+<button class="btn btn-primary" ><a href="#questions"><a class="btn btn-primary" href="tel:+16266609863" >Get Quoted</a></a></button>
+</div>
+</div>          
+</div>
+
+<!-- SERVICES OFFERED SECTION -->
+
+
+<section id="services">     
+    <div class="container">
+        <div class="section-title">
+            <h1>
+            Our Services
+            </h1>
+            <div class="line"></div>
+        </div>
+        <div class="services">
+            <div class="service">
+                <img src="./RCHImages/Junk1.2.jpg" alt="">
+                <h3>Junk Removal</h3>
+                <p>
+                We are equipped with two trailer sized for any and all junk removal needs. Just tell us what needs to go and we take it off your hands.
+                </p>
+            </div>
+<div class="service">
+                <img src="RCHImages/Delivery2.2.jpg" alt="">
+                <h3>Delivery & Moving Assistance</h3>
+                <p>
+                If you have delivery,pick-up, or moving needs. Rose City Hauling has got you covered, simply give us the details and we handle the rest.
+                </p>
+            </div>
+<div class="service">
+                <img src="./RCHImages/Demolition2.2.jpg" alt="">
+                <h3>Demolition</h3>
+                <p>
+                Just point to anything on your property that you no longer want or need and we are licensed to tear it down and take it away. Leave the hassle and clean up to us.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT THE COMPANY SECTION -->  
+
+<section id="about-us">
+<div class="container">
+  <div class="about-content">
+        <img class="abt-img" src="./RCHImages/Junk1.4.JPG" alt="" />
+    <div class="about-text">
+        <h3> 
+        <h2>Rose City Hauling</h2> is a locally established, Los Angeles County based business, here to service any and all people within the community who need some heavy lifting done. We can and will remove any and all junk that is cluttering your yard, home, or garage for a tidy clean look. We also provide moving services if you do not want to burden your family and friends. As well as delivery services for large appliances or materials for labor. For demolition purposes we are license and insured to knock out or knock down what you no longer want on your property while sweeping away any and all debris.
+        <div class="phone-num">
+        <br>Call/Text us at: 
+        <a class="about-text phone" href="tel:+16266609863" >626-660-9863</a>
+        </div>
+        </h3>
+        <br>
+        <button class=" btn btn-primary" href="#questions">
+        <a  class="a-btn" href="#questions">Get A Quote</a>
+        </button>
+    </div>
+ </div>
+    
+</div>
+</section>
+
+<!-- IMAGE CAROUSEL SECTION -->
+
+<section id="carousel">
+    <div class="carousel">
+        <div class="group">
+            <div class="card"><img src="./RCHImages/Image1.jpg"></div>
+            <div class="card"><img src="./RCHImages/Image2.jpg"></div>
+            <div class="card"><img src="./RCHImages/Image3.jpg"></div>
+            <div class="card"><img src="./RCHImages/Image4.jpg"></div>
+            <div class="card"><img src="./RCHImages/Image5.jpg"></div>
+            <div class="card"><img src="./RCHImages/Image6.jpg"></div>
+        </div>
+        <div aria-hidden class="group">
+            <div class="card"><img src="./RCHImages/Image1.jpg"></div>
+            <div class="card"><img src="./RCHImages/Image2.jpg"></div>
+            <div class="card"><img src="./RCHImages/Image3.jpg"></div>
+            <div class="card"><img src="./RCHImages/Image4.jpg"></div>
+            <div class="card"><img src="./RCHImages/Image5.jpg"></div>
+            <div class="card"><img src="./RCHImages/Image6.jpg"></div>
+        </div>
+    </div>
+</section>
+
+<!-- EMAIL OR CALL US SECTION -->
+
+<section id="questions">
+<div class="container">
+    <div class="questions-text">
+     <h1 >
+    Contact us today to get a quote!
+    </h1>
+    <h2 >
+       We service the greater Los Angeles County area for junk removal, moving assistance, delivery and demolition. No job is too big or too small. 
+    </h2></div>
+
+
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+     <div class="contact-left-title"> 
+    <h2>Call/Text us at 626-660-9863 </h2>
+    <h2>or Send us an email:</h2>
+       
+     </div>
+     <input type="hidden" name="access_key" value="21b4636e-5766-4b6f-b238-26fe61b712d7">
+     <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+     <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+     <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+     <button type="submit" class="btn btn-primary" >Submit<img src="" alt=""></button>
+    </form>
+
+</div>
+</section>
+
+<!-- FOOTER SECTION -->
+
+<footer>
+<div class="container">
+    <ul class="footer-links">
+        <li><a href="#main">Home</a></li>
+           <li><a href="#services">Services</a></li>
+           <li><a href="#about-us">About</a></li>
+           <li><a href="#questions">Contact Us</a></li>
+    </ul>
+    <img src="./RCHImages/logo1.PNG" alt="" class="footerLogo">
+    <p>Rose City Hauling Services Co.</p>
+
+
+</div>
+</footer>
+</body>
+</html>
